@@ -1,0 +1,3 @@
+cat *File
+
+Flagge steht unten im Text
