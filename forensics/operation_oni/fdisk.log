@@ -1,0 +1,10 @@
+Disk disk.img: 230 MiB, 241172480 bytes, 471040 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x0b0051d0
+
+Device     Boot  Start    End Sectors  Size Id Type
+disk.img1  *      2048 206847  204800  100M 83 Linux
+disk.img2       206848 471039  264192  129M 83 Linux
