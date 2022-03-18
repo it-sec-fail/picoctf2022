@@ -1,0 +1,16 @@
+upx -d unpackme-upx
+
+Ghidra Search for Strings
+
+  printf("What\'s my favorite number? ");
+  __isoc99_scanf(&DAT_004b3020,&local_44);
+  if (local_44 == 0xb83cb) {
+    local_40 = (char *)rotate_encrypt(0,&local_38);
+    fputs(local_40,(FILE *)stdout);
+    putchar(10);
+    free(local_40);
+  }
+
+0xb83cb = 0754635
+
+Datei ausführen -> Passwort eingeben

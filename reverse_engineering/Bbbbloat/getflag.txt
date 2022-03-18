@@ -1,0 +1,10 @@
+bbbbloat
+Radare 2
+r2 -d bbbbloat
+aaa
+afl
+pdf @main
+Vor dem Jump Point zur Exit Funktion wird ein CMP (compare) durchgeführt
+Hier wird eax mit 0x86187 verglichen
+Hex to Decimal= 549255
+Passwort ist 549255
